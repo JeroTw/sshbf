@@ -7,8 +7,8 @@ import time
 import requests
 
 
-token = '1104116364:AAHV99ycPwTOGBSBVSheBHwA3ZV4PRtt_4Y'
-chat_id = '-1001574358576'
+token = 'tt'
+chat_id = 'gf'
 
 
 
