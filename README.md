@@ -12,7 +12,7 @@
 
 ### Put passwords in passwords.txt
 
-### python3 main.py
+### ```$ python3 main.py```
 
 
 ## What I do?
